@@ -6,3 +6,15 @@ body,html {
 	padding: 0;
 	margin: 0;
 }
+
+nav a, 
+nav a::before {
+	position: relative;
+	display: block;
+	padding: 1em;
+	color: #fff;
+	font-size: 3em;
+	overflow: hidden;
+	background: transparent;
+	text-align: center;
+}

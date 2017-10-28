@@ -18,3 +18,9 @@ nav a::before {
 	background: transparent;
 	text-align: center;
 }
+
+nav a:hover {
+	background: #fff;
+	color: #000;
+}
+

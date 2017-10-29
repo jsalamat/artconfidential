@@ -24,3 +24,22 @@ nav a:hover {
 	color: #000;
 }
 
+nav a::before {
+	position: absolute;
+	display: block;
+	content: "";
+	color: #000;
+	font-size: 1em;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	background: no-repeat center center;
+	background-size: 100% auto;
+	opacity: 0;
+	transition: background-size 2s,
+	opacity .5s;
+}
+

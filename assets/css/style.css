@@ -43,3 +43,8 @@ nav a::before {
 	opacity .5s;
 }
 
+nav a:hover::before {
+	opacity: 1;
+	background-size: 150% auto;
+}
+
